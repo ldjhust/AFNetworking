@@ -441,6 +441,7 @@
     HTTPClient.requestSerializer = [self.requestSerializer copyWithZone:zone];
     HTTPClient.responseSerializer = [self.responseSerializer copyWithZone:zone];
     HTTPClient.securityPolicy = [self.securityPolicy copyWithZone:zone];
+    HTTPClient.securityPolicy = [self.securityPolicy copyWithZone:zone];
     return HTTPClient;
 }
 
